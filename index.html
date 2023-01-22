@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>post</title>
+       <link rel="stylesheet" href="style.css" />
+        </head>
+  <body>
+  
+<header>
+  
+  <button type="button" id="choose" onclick="del()">Видалити вибрані пости</button>
+  
+<div class="choose-posts" >
+   <input type="checkbox" id="mainChoose" onchange="deleteChoosePosts()">
+</div>
+
+
+
+  <p class="create">Створити пост:)</p>
+<div class="main-div">
+
+<form id="task-form">
+  <input type="text" class="add-item" placeholder="Введіть ім'я посту">
+  <button type="submit" class="add-btn">Add</button>
+  <p class="error">Enter title for the post</p>
+</form>
+
+
+
+</div>
+</header>
+
+<main>
+  <p class="create">Ваші пости:</p>
+<div class="posts">
+
+
+</div>
+</main>
+
+
+
+
+<script src="index.js"></script>
+  </body>
+</html>

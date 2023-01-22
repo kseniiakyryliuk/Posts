@@ -58,11 +58,13 @@ display: none;
   height: 30px;
 
 }
-/*
+
 .content input[type=text]:read-only{
-  background-color: #ca18e0;
+  background-color: #e7c2ec;
 }
-*/
+.content input[type=text]{
+  background-color: #cbecc2;
+}
 
 .actions button
 {
